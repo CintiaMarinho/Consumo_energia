@@ -17,17 +17,33 @@ Este projeto foi criado para ajudar usuários a estimar:
 ## 📐 Fórmula utilizada
 O cálculo segue a fórmula:
 
-
-
 \[
 ConsumoMensal = \frac{Potência \times HorasDia \times 30}{1000}
 \]
 
-
-
-👉 Exemplo: uma geladeira de 50 W usada 30h/mês consome **45 kWh/mês**.
+👉 Exemplo: uma geladeira de 150 W usada 10h por dia consome 45 kWh/mês.
 
 ## 🚀 Como executar
-1. Se você estiver no Windows: python app.py
-2. ou, em alguns casos: py app.py
-3. Se você estiver no Linux/Mac: python3 app.py
+1. Se você estiver no Windows: python app.py  
+2. ou, em alguns casos: py app.py  
+3. Se você estiver no Linux/Mac: python3 app.py  
+
+## 💻 Exemplo de execução
+
+```text
+= Calculadora de Consumo Elétrico Inteligente =
+
+Digite o nome do aparelho: Geladeira
+Digite a potência da Geladeira em watts (W): 150
+Digite o tempo médio de uso diário em horas: 10
+
+=== Resultado ===
+Aparelho: Geladeira
+Consumo estimado: 45.00 kWh/mês
+Custo estimado: R$ 33.75
+```
+
+## 👩‍💻 Autora
+
+Projeto desenvolvido por **Cintia Marinho**  
+🔗 GitHub: https://github.com/CintiaMarinho
