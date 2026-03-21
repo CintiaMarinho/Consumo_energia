@@ -28,6 +28,6 @@ ConsumoMensal = \frac{Potência \times HorasDia \times 30}{1000}
 👉 Exemplo: uma geladeira de 50 W usada 30h/mês consome **45 kWh/mês**.
 
 ## 🚀 Como executar
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/consumo-energia.git
+1. Se você estiver no Windows: python app.py
+2. ou, em alguns casos: py app.py
+3. Se você estiver no Linux/Mac: python3 app.py
