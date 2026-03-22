@@ -4,8 +4,8 @@ print("= Calculadora de Consumo Elétrico Inteligente =")
 
 # Entrada de dados
 nome_aparelho = input("Digite o nome do aparelho: ")
-potencia = float(input(f"Digite a potência da(o) { nome_aparelho} em watts (W): "))
-horas_dia = float(input(f"Digite o tempo médio de uso diário em horas : "))
+potencia = float(input(f"Digite a potência da(o) {nome_aparelho} em watts (W): "))
+horas_dia = float(input(f"Digite o tempo médio de uso diário em horas: "))
 
 # Cálculo do consumo mensal em Kwh
 consumo_mensal = (potencia * horas_dia * 30) / 1000
